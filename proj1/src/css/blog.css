@@ -1,0 +1,79 @@
+body {
+  background: #51d0de;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.blogBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+  height: 800px;
+  width: 900px;
+  margin: auto;
+  overflow: hidden;
+  background: darkolivegreen;
+}
+.one {
+  position: relative;
+  height: 262px;
+  width: 299px;
+  grid-column: 1;
+  grid-row: 1;
+  margin: auto;
+}
+.two {
+  position: relative;
+  height: 262px;
+  width: 299px;
+  grid-column: 2;
+  grid-row: 1;
+  margin: auto;
+}
+.three {
+  position: relative;
+  height: 262px;
+  width: 299px;
+  grid-column: 1;
+  grid-row: 2;
+  margin: auto;
+}
+.four {
+  position: relative;
+  height: 262px;
+  width: 299px;
+  margin: auto;
+  grid-column: 2;
+  grid-row: 2;
+}
+.five {
+  position: relative;
+  height: 262px;
+  width: 299px;
+  grid-column: 1;
+  grid-row: 3;
+  margin: auto;
+}
+.six {
+  position: relative;
+  height: 262px;
+  width: 299px;
+  grid-column: 2;
+  grid-row: 3;
+  margin: auto;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.headerBlogs {
+  font-family: "Knewave", cursive;
+}
+footer {
+  height: 150px;
+  width: 900px;
+  margin: auto;
+  background: deeppink;
+}

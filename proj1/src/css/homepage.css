@@ -1,0 +1,89 @@
+body {
+  background: #fff5d7;
+  font-family: "Abel";
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.container {
+  background: red;
+  width: 900px;
+  margin: auto;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header  header   header"
+    "content content  advert"
+    "content content  ......"
+    "footer  footer   footer";
+}
+
+.header {
+  grid-area: header;
+  background: crimson;
+}
+
+.sidebar {
+  grid-area: advert;
+  background: yellow;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+  background: navy;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 207px;
+}
+.title {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 70px;
+  left: 0px;
+  top: 0px;
+  padding: 10px;
+  color: transparent;
+  background-image: url("../pics/truck.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-background-clip: text;
+}
+blockquote {
+  background: beige;
+  width: 300px;
+  height: 130px;
+}
+p {
+  font-style: italic;
+}
+#navbarToBlog {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  top: 60px;
+}
+#navbarToBlogInner {
+  width: 100px;
+  height: 25px;
+  margin: auto;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: slategrey;
+  font-family: "Cinzel Decorative", cursive;
+  border: darkolivegreen 5px solid;
+  border-radius: 10px;
+}
+#navbarToBlogInner a {
+  color: #fff5d7;
+}
