@@ -87,3 +87,22 @@ p {
 #navbarToBlogInner a {
   color: #fff5d7;
 }
+
+/**SCREENS 899PX OR More*/
+@media screen and (min-width: 899px) {
+  .container {
+    width: 900px;
+  }
+}
+/**Medium Screen less than 899px*/
+@media screen and (max-width: 899px) {
+  .container {
+    width: 600px;
+  }
+}
+/**Samll Screen sizes less than 350px*/
+@media screen and (max-width: 350px) {
+  .container {
+    width: 500px;
+  }
+}
