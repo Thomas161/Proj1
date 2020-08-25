@@ -94,10 +94,12 @@ footer {
   padding: 20px;
   height: 180px;
   width: 180px;
+
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
 }
+
 .fa:hover {
   transform: scale(1.2);
 }
@@ -115,10 +117,6 @@ footer {
     width: 100%;
     height: 100%;
   }
-  /* footer {
-    width: 900px;
-    height: 150px;
-  } */
 }
 /**Medium Screen less than 899px*/
 @media screen and (max-width: 899px) {
@@ -126,11 +124,6 @@ footer {
     width: 50%;
     height: 100%;
   }
-  /* footer {
-    width: 600px;
-
-    height: 100px;
-  } */
 }
 /**Samll Screen sizes less than 350px*/
 @media screen and (max-width: 350px) {
@@ -139,10 +132,6 @@ footer {
     height: 100%;
     /* overflow: auto; */
   }
-  /* footer {
-    width: 300px;
-    height: 50px;
-  } */
 }
 small {
   font-style: italic;
@@ -172,4 +161,8 @@ small {
 #pic5,
 #pic6 {
   width: 85px;
+}
+
+blockquote {
+  font-style: italic;
 }
