@@ -76,13 +76,12 @@ body {
   margin: auto;
 }
 img {
-  height: 100px;
-  width: 100px;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
 }
 
-.headerBlogs {
-  font-family: "Knewave", cursive;
-}
 footer {
   height: 150px;
   width: 900px;
@@ -138,18 +137,23 @@ small {
 }
 #name1 {
   color: red;
+  font-family: "Knewave", cursive;
 }
 #name2 {
   color: goldenrod;
+  font-family: "Knewave", cursive;
 }
 #name3 {
   color: dodgerblue;
+  font-family: "Knewave", cursive;
 }
 #name4 {
   color: teal;
+  font-family: "Knewave", cursive;
 }
 #name5 {
   color: purple;
+  font-family: "Knewave", cursive;
 }
 #name6 {
   color: salmon;
@@ -161,8 +165,36 @@ small {
 #pic5,
 #pic6 {
   width: 85px;
+  height: 85px;
 }
 
 blockquote {
   font-style: italic;
+}
+label {
+  position: relative;
+  left: 0px;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px red;
+}
+.contents {
+  position: absolute;
+  margin: auto;
+  width: 381px;
+  height: 300px;
+  overflow: block;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.w3-bar-item {
+  position: absolute;
+  width: 50px;
+  height: 124px;
+}
+.pictures {
+  width: 150px;
+  height: 110px;
 }
