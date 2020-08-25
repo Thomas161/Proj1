@@ -144,3 +144,32 @@ footer {
     height: 50px;
   } */
 }
+small {
+  font-style: italic;
+}
+#name1 {
+  color: red;
+}
+#name2 {
+  color: goldenrod;
+}
+#name3 {
+  color: dodgerblue;
+}
+#name4 {
+  color: teal;
+}
+#name5 {
+  color: purple;
+}
+#name6 {
+  color: salmon;
+}
+#pic1,
+#pic2,
+#pic3,
+#pic4,
+#pic5,
+#pic6 {
+  width: 85px;
+}
