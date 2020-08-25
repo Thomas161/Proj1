@@ -1,0 +1,14 @@
+.title {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 85px;
+  left: 0px;
+  top: 0px;
+  padding: 10px;
+  color: transparent;
+  background-image: url("../pics/truck.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-background-clip: text;
+}

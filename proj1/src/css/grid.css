@@ -1,0 +1,10 @@
+.container {
+  background: red;
+  width: 900px;
+  margin: auto;
+  height: 800px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px 300px 250px;
+  grid-gap: 10px;
+}

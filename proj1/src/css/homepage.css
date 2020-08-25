@@ -1,3 +1,7 @@
+@import "./title.css";
+@import "./grid.css";
+@import "./image.css";
+
 body {
   background: #fff5d7;
   font-family: "Abel";
@@ -5,48 +9,16 @@ body {
   height: 100%;
   text-align: center;
 }
-.container {
-  background: red;
-  width: 900px;
-  margin: auto;
-  height: 800px;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 150px 400px 200px;
-  grid-gap: 10px;
-}
 
 .item header {
-  background: crimson;
+  position: absolute;
+  top: 20px;
 }
 
 .item content {
+  position: absolute;
 }
 
-img {
-  height: 100%;
-  width: 100%;
-  border-radius: 207px;
-}
-.title {
-  font-family: "Rubik Mono One", sans-serif;
-  font-size: 70px;
-  left: 0px;
-  top: 0px;
-  padding: 10px;
-  color: transparent;
-  background-image: url("../pics/truck.jpg");
-  background-size: cover;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-background-clip: text;
-}
-blockquote {
-  background: beige;
-  width: 300px;
-  height: 130px;
-}
 p {
   font-style: italic;
 }
@@ -76,14 +48,37 @@ p {
 .navbar {
   /* overflow: hidden; */
   background-color: #333;
-  height: 155px;
+  height: 79px;
   width: 900px;
 }
 
 #blogsLink {
+  position: absolute;
   width: 70px;
   height: 40px;
   background: peachpuff;
-  margin: auto 10px;
+  margin: 7px;
+  background: green;
 }
-attributedArt
+#blogPage {
+  position: absolute;
+  left: 15px;
+  top: 7px;
+  color: white;
+}
+
+#blogPage:hover {
+  color: black;
+}
+
+#blogPage:active {
+  color: white;
+}
+#attributedArt {
+  position: absolute;
+  left: 163px;
+  margin: 6px;
+  color: #fff;
+  height: 56px;
+  background: slategray;
+}
