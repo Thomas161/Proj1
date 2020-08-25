@@ -3,4 +3,5 @@ img {
   width: 100%;
   top: 20px;
   border-radius: 207px;
+  position: relative;
 }

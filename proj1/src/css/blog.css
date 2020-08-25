@@ -86,6 +86,7 @@ footer {
   height: 150px;
   width: 900px;
   margin: auto;
+
   /* background: deeppink; */
 }
 
@@ -108,6 +109,8 @@ footer {
   margin: auto 0px;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /**SCREENS 899PX OR More*/
@@ -196,5 +199,5 @@ label {
 }
 .pictures {
   width: 150px;
-  height: 110px;
+  height: 90px;
 }

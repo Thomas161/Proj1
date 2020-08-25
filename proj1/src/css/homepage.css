@@ -34,11 +34,17 @@ p {
   .container {
     width: 600px;
   }
+  img {
+    width: 50%;
+  }
 }
 /**Samll Screen sizes less than 350px*/
 @media screen and (max-width: 350px) {
   .container {
     width: 500px;
+  }
+  img {
+    width: 30%;
   }
 }
 p {
@@ -50,6 +56,9 @@ p {
   background-color: #333;
   height: 79px;
   width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 #blogsLink {
@@ -75,10 +84,12 @@ p {
   color: white;
 }
 #attributedArt {
-  position: absolute;
-  left: 163px;
+  position: relative;
+  left: 123px;
   margin: 6px;
+  top: -9px;
   color: #fff;
   height: 56px;
+  width: 700px;
   background: slategray;
 }
