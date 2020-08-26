@@ -33,6 +33,7 @@ p {
 @media screen and (max-width: 899px) {
   .container {
     width: 600px;
+    height: 100%;
   }
   img {
     width: 50%;
@@ -42,6 +43,7 @@ p {
 @media screen and (max-width: 350px) {
   .container {
     width: 500px;
+    height: 100%;
   }
   img {
     width: 30%;

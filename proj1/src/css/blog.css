@@ -115,24 +115,31 @@ footer {
 
 /**SCREENS 899PX OR More*/
 @media screen and (min-width: 899px) {
-  body {
-    width: 100%;
+  .blogBox {
+    width: 900px;
+
     height: 100%;
   }
 }
 /**Medium Screen less than 899px*/
 @media screen and (max-width: 899px) {
-  body {
-    width: 50%;
-    height: 100%;
+  .blogBox {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: (180px, auto);
   }
 }
 /**Samll Screen sizes less than 350px*/
-@media screen and (max-width: 350px) {
-  body {
-    width: 30%;
-    height: 100%;
+@media screen and (max-width: 400px) {
+  section {
+    width: auto;
+    height: 30%;
     /* overflow: auto; */
+  }
+  footer {
+    width: auto;
+
+    height: 30%;
   }
 }
 small {
