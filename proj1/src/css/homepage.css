@@ -19,8 +19,7 @@ body {
   position: absolute;
   width: 100%;
 }
-.navbar {
-  background-color: #333;
+.item navbar {
   height: 120px;
   width: 100%;
   display: flex;
@@ -37,7 +36,7 @@ p {
     width: 100%;
   }
   .title {
-    width: 100%;
+    font-size: 85px;
   }
   .item header,
   .item content,
@@ -51,22 +50,70 @@ p {
     width: 66%;
   }
   .title {
-    width: 66%;
+    font-size: 50px;
   }
   .header,
   .content,
   .navbar {
-    width: 66%;
+    width: 100%;
+  }
+  #blogsLink {
+    width: 33%;
+  }
+  #attributedArt {
+    width: 67%;
+    overflow: scroll;
+  }
+  p {
+    font-size: 6px;
   }
 }
 /**Samll Screen sizes less than 350px*/
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 508px) {
   .container {
-    width: 500px;
-    height: 100%;
+    width: 52%;
   }
-  img {
-    width: 30%;
+  .title {
+    font-size: 24px;
+  }
+  .header,
+  .content,
+  .navbar {
+    width: 100%;
+  }
+  #blogsLink {
+    width: 33%;
+  }
+  #attributedArt {
+    width: 67%;
+  }
+  p {
+    font-size: 4px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    width: 33%;
+    grid-auto-columns: auto;
+    grid-template-rows: auto;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .header,
+  .content,
+  .navbar {
+    width: 100%;
+  }
+  #blogsLink {
+    width: 33%;
+  }
+  #attributedArt {
+    width: 67%;
+  }
+  p {
+    font-size: 4px;
   }
 }
 p {

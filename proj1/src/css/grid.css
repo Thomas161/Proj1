@@ -1,10 +1,10 @@
 .container {
   background: red;
-  width: 100%;
+  /* width: 100%; */
   margin: auto;
   height: 100%;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 120px 300px 250px;
-  grid-gap: 10px;
+  grid-template-rows: 210px 200px 110px;
+  grid-gap: 5px blue;
 }
