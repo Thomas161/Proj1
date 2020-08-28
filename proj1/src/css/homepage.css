@@ -41,7 +41,7 @@ p {
 }
 
 /**Samll Screen sizes less than 600px*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 899px) {
   .container {
     width: 66%;
   }
@@ -68,7 +68,7 @@ p {
     width: 80%;
   }
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
   .container {
     width: 44%;
   }
@@ -94,7 +94,7 @@ p {
     width: 80%;
   }
 }
-@media screen and (max-width: 320px) and( min-width: 300px) {
+@media screen and (max-width: 320px) and( min-width: 270px) {
   .container {
     width: 33%;
   }
