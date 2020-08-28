@@ -50,7 +50,7 @@ p {
     width: 66%;
   }
   .title {
-    font-size: 50px;
+    font-size: 70px;
   }
   .header,
   .content,
@@ -122,6 +122,7 @@ p {
 }
 
 #blogsLink {
+  position: relative;
   left: 0;
   float: left;
   top: 0;
@@ -130,9 +131,15 @@ p {
   background: peachpuff;
   background: green;
 }
+#inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
 #blogPage {
-  /* align-items: center; */
-
   color: white;
 }
 

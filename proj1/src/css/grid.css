@@ -5,6 +5,6 @@
   height: 100%;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 210px 200px 110px;
+  grid-template-rows: 150px 260px 110px;
   grid-gap: 5px blue;
 }
