@@ -12,11 +12,19 @@ body {
 
 .item header {
   position: absolute;
-  top: 20px;
+  width: 100%;
 }
 
 .item content {
   position: absolute;
+  width: 100%;
+}
+.navbar {
+  background-color: #333;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 p {
@@ -26,6 +34,9 @@ p {
 /**SCREENS 899PX OR More*/
 @media screen and (min-width: 899px) {
   .container {
+    width: 100%;
+  }
+  .title {
     width: 100%;
   }
   .item header,
@@ -39,8 +50,13 @@ p {
   .container {
     width: 66%;
   }
-  img {
-    width: 50%;
+  .title {
+    width: 66%;
+  }
+  .header,
+  .content,
+  .navbar {
+    width: 66%;
   }
 }
 /**Samll Screen sizes less than 350px*/
@@ -55,29 +71,21 @@ p {
 }
 p {
   text-decoration: underline;
-}
-
-.navbar {
-  /* overflow: hidden; */
-  background-color: #333;
-  height: 79px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
+  font-size: 10px;
 }
 
 #blogsLink {
-  width: 70px;
-  height: 79px;
-  background: peachpuff;
+  left: 0;
   float: left;
+  top: 0;
+  width: 33%;
+  height: 120px;
+  background: peachpuff;
   background: green;
 }
 #blogPage {
-  position: absolute;
-  left: 15px;
-  top: 7px;
+  /* align-items: center; */
+
   color: white;
 }
 
@@ -93,7 +101,7 @@ p {
   float: left;
   top: 0;
   color: #fff;
-  height: 79px;
-
+  height: 120px;
+  width: 67%;
   background: slategray;
 }
