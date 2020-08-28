@@ -10,18 +10,15 @@ body {
   text-align: center;
 }
 
-.item header {
-  position: absolute;
+.item-header,
+.item-header,
+.item-navigation {
+  position: relative;
   width: 100%;
 }
 
-.item content {
-  position: absolute;
-  width: 100%;
-}
-.item navbar {
-  height: 120px;
-  width: 100%;
+.item-navigation {
+  height: 346px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -35,85 +32,93 @@ p {
   .container {
     width: 100%;
   }
-  .title {
-    font-size: 85px;
-  }
-  .item header,
-  .item content,
-  .item navbar {
+
+  .item-header,
+  .item-content,
+  .item-navigation {
     width: 100%;
   }
 }
-/**Medium Screen less than 899px*/
-@media screen and (max-width: 899px) {
+
+/**Samll Screen sizes less than 600px*/
+@media screen and (max-width: 600px) {
   .container {
     width: 66%;
   }
   .title {
-    font-size: 70px;
+    font-size: 24px;
   }
-  .header,
-  .content,
-  .navbar {
+  .item-header,
+  .item-content,
+  .item-navigation {
     width: 100%;
   }
   #blogsLink {
-    width: 33%;
+    width: 71%;
+    display: block;
   }
   #attributedArt {
-    width: 67%;
+    width: 29%;
     overflow: scroll;
   }
   p {
-    font-size: 6px;
+    font-size: 4px;
+  }
+  img {
+    width: 80%;
   }
 }
-/**Samll Screen sizes less than 350px*/
-@media screen and (max-width: 508px) {
+@media screen and (min-width: 400px) {
   .container {
-    width: 52%;
+    width: 44%;
   }
   .title {
-    font-size: 24px;
+    font-size: 20px;
   }
-  .header,
-  .content,
-  .navbar {
+  .item-header,
+  .item-content,
+  .item-navigation {
     width: 100%;
   }
   #blogsLink {
-    width: 33%;
+    width: 50%;
   }
   #attributedArt {
-    width: 67%;
+    width: 50%;
+    overflow: scroll;
   }
   p {
     font-size: 4px;
   }
+  img {
+    width: 80%;
+  }
 }
+@media screen and (max-width: 320px) and( min-width: 300px) {
+  .container {
+    width: 33%;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .item-header,
+  .item-content,
+  .item-navigation {
+    width: 100%;
+  }
 
-@media screen and (min-width: 320px) {
-  .container {
-    width: 33%;
-    grid-auto-columns: auto;
-    grid-template-rows: auto;
-  }
-  .title {
-    font-size: 18px;
-  }
-  .header,
-  .content,
-  .navbar {
-    width: 100%;
-  }
   #blogsLink {
-    width: 33%;
+    width: 70%;
   }
   #attributedArt {
-    width: 67%;
+    width: 30%;
+    overflow: scroll;
   }
   p {
-    font-size: 4px;
+    font-size: 2px;
+  }
+  #blogPage {
+    font-size: 6px;
   }
 }
 p {
@@ -126,7 +131,7 @@ p {
   left: 0;
   float: left;
   top: 0;
-  width: 33%;
+  width: 29%;
   height: 120px;
   background: peachpuff;
   background: green;
@@ -141,6 +146,7 @@ p {
 }
 #blogPage {
   color: white;
+  font-size: 13px;
 }
 
 #blogPage:hover {
@@ -156,6 +162,6 @@ p {
   top: 0;
   color: #fff;
   height: 120px;
-  width: 67%;
+  width: 71%;
   background: slategray;
 }
