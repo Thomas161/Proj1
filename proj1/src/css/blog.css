@@ -127,30 +127,31 @@ footer {
   .blogBox {
     width: 100%;
   }
-  #one,
-  #two,
-  #three,
-  #four,
-  #five,
-  #six {
+  #one {
     position: relative;
-    width: 200px;
-    height: 200px;
-  }
-  .contents {
-    position: relative;
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 220px;
+    grid-column: 1;
+    grid-row: 1;
     margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
   }
-  label {
-    font-size: 6px;
+  #two {
+    position: relative;
+    width: 260px;
+    height: 220px;
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto;
   }
-  #name1,
+
+  .contents {
+    margin: auto;
+    width: 220px;
+    height: 300px;
+    overflow: block;
+  }
+
+  /* .contents > #name1,
   #name2,
   #name3,
   #name4,
@@ -158,14 +159,21 @@ footer {
   #name6 {
     font-size: 6px;
   }
-  .pictures {
-    width: 80px;
+  .w3-bar-item {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -80px;
+  }
+  .w3-bar-item > .pictures {
+    width: 30px;
     height: 60px;
   }
   blockquote {
     font-size: 6px;
+    width: 55px;
   }
-  figcaption {
+  .w3-bar-item > figcaption {
     font-size: 6px;
   }
   #pic1,
@@ -175,10 +183,11 @@ footer {
   #pic5,
   #pic6 {
     width: 60px;
+
     height: 60px;
-  }
+  } */
   footer {
-    width: 66%;
+    width: 100%;
   }
 }
 /**Samll Screen sizes less than 350px*/
@@ -220,6 +229,7 @@ small {
 #pic4,
 #pic5,
 #pic6 {
+  position: absolute;
   width: 85px;
   height: 85px;
 }
