@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #51d0de;
   width: 100%;
@@ -112,91 +116,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
-
-/**SCREENS 899PX OR More*/
-@media screen and (min-width: 899px) {
-  #container {
-    width: 100%;
-  }
+.contents {
+  position: absolute;
+  margin: auto;
+  width: 381px;
+  height: 300px;
 }
-/**Medium Screen less than 899px but minimum of 500px*/
-@media screen and (max-width: 699px) and (min-width: 500px) {
-  #container {
-    width: 100%;
-  }
-  .blogBox {
-    width: 100%;
-  }
-  #one {
-    position: relative;
-    width: 260px;
-    height: 220px;
-    grid-column: 1;
-    grid-row: 1;
-    margin: auto;
-  }
-  #two {
-    position: relative;
-    width: 260px;
-    height: 220px;
-    grid-column: 2;
-    grid-row: 1;
-    margin: auto;
-  }
-
-  .contents {
-    margin: auto;
-    width: 220px;
-    height: 300px;
-    overflow: block;
-  }
-
-  /* .contents > #name1,
-  #name2,
-  #name3,
-  #name4,
-  #name5,
-  #name6 {
-    font-size: 6px;
-  }
-  .w3-bar-item {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: -80px;
-  }
-  .w3-bar-item > .pictures {
-    width: 30px;
-    height: 60px;
-  }
-  blockquote {
-    font-size: 6px;
-    width: 55px;
-  }
-  .w3-bar-item > figcaption {
-    font-size: 6px;
-  }
-  #pic1,
-  #pic2,
-  #pic3,
-  #pic4,
-  #pic5,
-  #pic6 {
-    width: 60px;
-
-    height: 60px;
-  } */
-  footer {
-    width: 100%;
-  }
-}
-/**Samll Screen sizes less than 350px*/
-/* @media screen and (max-width: 400px) {
-  section {
-    width: auto;
-    height: 30%;
-    /* overflow: auto; */
-
 small {
   font-style: italic;
 }
@@ -232,6 +157,7 @@ small {
   position: absolute;
   width: 85px;
   height: 85px;
+  top: 0;
 }
 
 blockquote {
@@ -244,18 +170,7 @@ label {
   text-decoration: underline;
   text-shadow: 2px 2px 3px red;
 }
-.contents {
-  position: absolute;
-  margin: auto;
-  width: 381px;
-  height: 300px;
-  overflow: block;
 
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
 .w3-bar-item {
   position: absolute;
   width: 50px;
@@ -265,3 +180,101 @@ label {
   width: 150px;
   height: 90px;
 }
+
+/**SCREENS 899PX OR More*/
+@media screen and (min-width: 899px) {
+  #container {
+    width: 100%;
+  }
+}
+/**Medium Screen less than 899px but minimum of 500px*/
+@media screen and (max-width: 699px) and (min-width: 500px) {
+  #container {
+    width: 100%;
+  }
+  .blogBox {
+    width: 66%;
+  }
+  #one {
+    position: relative;
+    width: 260px;
+    height: 220px;
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+  }
+  #two {
+    position: relative;
+    width: 260px;
+    height: 220px;
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto;
+  }
+
+  .contents {
+    margin: auto;
+    width: 184px;
+    height: 203px;
+    top: 9px;
+    left: 38px;
+  }
+  blockquote {
+    font-size: 8px;
+    width: 141px;
+  }
+  em {
+    font-size: 8px;
+  }
+  label {
+    font-size: 8px;
+  }
+
+  .contents > #name1,
+  #name2,
+  #name3,
+  #name4,
+  #name5,
+  #name6 {
+    font-size: 7.5px;
+  }
+  .w3-bar-item {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 129px;
+    left: 0;
+  }
+
+  .w3-bar-item > .pictures {
+    width: 60px;
+    height: 60px;
+  }
+  .w3-bar-item > figcaption {
+    font-size: 7.5px;
+  }
+  /*  
+ 
+  .w3-bar-item > figcaption {
+    font-size: 6px;
+  } */
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4,
+  #pic5,
+  #pic6 {
+    width: 60px;
+
+    height: 60px;
+  }
+  footer {
+    width: 66%;
+  }
+}
+/**Samll Screen sizes less than 350px*/
+/* @media screen and (max-width: 400px) {
+  section {
+    width: auto;
+    height: 30%;
+    /* overflow: auto; */
