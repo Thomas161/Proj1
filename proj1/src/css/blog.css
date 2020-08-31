@@ -155,9 +155,10 @@ small {
 #pic5,
 #pic6 {
   position: absolute;
-  width: 85px;
+  width: 72px;
   height: 85px;
-  top: 0;
+  top: 0px;
+  left: 10px;
 }
 
 blockquote {
@@ -294,13 +295,16 @@ label {
   #pic6 {
     position: absolute;
     width: 60px;
-
     height: 60px;
+    top: 0px;
+    left: 10px;
   }
+
   footer {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 499px) and (min-width: 320px) {
   #container {
     width: 100%;
@@ -406,18 +410,22 @@ label {
   #pic5,
   #pic6 {
     position: absolute;
-    left: 30px;
     width: 30px;
-
     height: 30px;
+    top: 0px;
+    left: 10px;
   }
   footer {
     width: 100%;
   }
 }
-/**Samll Screen sizes less than 350px*/
-/* @media screen and (max-width: 400px) {
-  section {
-    width: auto;
-    height: 30%;
-    /* overflow: auto; */
+@media (max-width: 320px) {
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4,
+  #pic5,
+  #pic6 {
+    display: none;
+  }
+}
